@@ -1,0 +1,18 @@
+o<z_tool_zero_measure> sub
+	(absolute distance mode)
+	G90
+	(TLO cancel)
+	G49
+	(zero out temporary Z axis)
+	G92 Z0
+	(G38.x=G38.2~G38.5, depth-to-probe=-10mm, feedrate=120mm/min)
+	G38.3 Z-10 F120
+	(TLO=0mm)
+	G43.1 Z0
+	(set the bit depth zero to the CNC bed)
+	G10 L20 P1 Z0
+	(retract distance is 2mm)
+	G0 Z2
+	(absolute distance mode)  
+	G90
+o<z_tool_zero_measure> endsub

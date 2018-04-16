@@ -1,0 +1,7 @@
+# Include your customized HAL commands here
+# The commands in this file are run after the AXIS GUI (including PyVCP panel) starts
+
+sets spindle-at-speed true
+
+# set up the rapid to home button
+#net home halui.mdi-command-00 <= pyvcp.home

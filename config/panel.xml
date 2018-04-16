@@ -1,0 +1,25 @@
+<pyvcp>
+  <button>
+    <halpin>"rapid-to-home"</halpin>
+    <text>"Rapid to Home"</text> 
+    <font>('Fixed',14)</font>
+  </button>
+  <button>
+    <halpin>"z-probe-offset"</halpin>
+    <text>"Z Probe Offset"</text> 
+    <font>('Fixed',14)</font>
+  </button>
+
+  <button>
+    <halpin>"z-probe-zero"</halpin>
+    <text>"Z Probe Zero"</text> 
+    <font>('Fixed',14)</font>
+  </button>
+
+  <led>
+    <halpin>"probe-sense"</halpin> 
+    <size>15</size> 
+    <on_color>"green"</on_color>
+    <off_color>"red"</off_color>
+  </led>
+</pyvcp>

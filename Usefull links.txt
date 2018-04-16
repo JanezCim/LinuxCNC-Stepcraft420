@@ -1,0 +1,9 @@
+#Setup večvrstičnih G komand na gumb v GUI-ju
+https://forum.linuxcnc.org/38-general-linuxcnc-questions/31909-custom-m-code
+
+#Z probing
+https://github.com/cncjs/cncjs/issues/17
+
+#Installing Java 8 (required for Autoleveler)
+http://linuxg.net/how-to-install-the-oracle-java-8-on-debian-wheezy-and-debian-jessie-via-repository/
+

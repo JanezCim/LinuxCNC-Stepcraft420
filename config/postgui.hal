@@ -1,0 +1,7 @@
+
+#iz pyvcp-ja zalinkej v komande definerane v .ini fajlu
+net remote-rapid-to-home halui.mdi-command-00 <= pyvcp.rapid-to-home
+net gumb1 halui.mdi-command-01 <= pyvcp.z-probe-offset
+net gumb2 halui.mdi-command-02 <= pyvcp.z-probe-zero
+net din-00 => motion.probe-input
+net din-00  => pyvcp.probe-sense
