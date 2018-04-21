@@ -1,5 +1,7 @@
 # LinuxCNC setup for Stepcraft 420
 
+![alt text](https://github.com/JanezCim/LinuxCNC-Stepcraft420/blob/master/IMG_20180202_191453.jpg)
+
 This is a full setup for a Stepcraft 420 machine with LinuxCNC. It could be any Stepcraft size, but you should change the config accordingly. This setup has been running on my machine since August 2017 without troubles, but I don't guarantee it woking for everyone.
 
 This setup has some custom buttons on the right that I find usefull:
