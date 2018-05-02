@@ -13,23 +13,24 @@ This setup has some custom buttons on the right that I find usefull:
 
 
 
-## How to set it up by importing
+## Simple setup (just by cloning)
 1. Clone this repo to `/home/<YOUR_USERNAME>/linuxcnc/configs`
 2. Copy the map  `custom_commands` into `/home/<YOUR_USERNAME>/linuxcnc/`
 3. Open  `/home/<YOUR_USERNAME>/linuxcnc/stepcraft420/config/SC420.ini` and under the flag `[RS274NGC]` change **USER_M_PATH** and **SUBROUTINE_PATH** into your valid path to `custom_commands` folder. 
 4. From `/home/<YOUR_USERNAME>/linuxcnc/configs/stepcraft420`  copy the launcher `SC420.desktop` to your favourite spot on the computer and launch it.
 
-## Stepcraft 420 From Ground Up
+## Longer setup (by using linuxCNC graphical tools)
 If you are setting up the machine from the ground up, there are some pictures added to help you. (But the whole setup is not documented here and you should follow tutorials on youtube) 
 
 ## Autoleveler
 
-For accurate CNCing of PCBs you need to measure the curvature of your copper. I do this with autoleveler that can be installed from this repo.
+For accurate milling of PCBs you need to measure the curvature of your copper. I do this with autoleveler. One version that works for me can be found in this repo, but for up to date version you should visit their website:
+https://www.autoleveller.co.uk/
 
-Before running Autoleveler you need Java8:
+Before running Autoleveler 0.7.0 you need Java8:
 http://linuxg.net/how-to-install-the-oracle-java-8-on-debian-wheezy-and-debian-jessie-via-repository/
 
-Once you download, copy `AutolevellerAE-0.7.0Free.jar` into  `/home/<YOUR_USERNAME>/linuxcnc/AutolevellerAE-0.7.0Free.jar` and make an accecutable with
+Copy `AutolevellerAE-0.7.0Free.jar` into  `/home/<YOUR_USERNAME>/linuxcnc/AutolevellerAE-0.7.0Free.jar` and make an accecutable with
 
 	sudo chmod +x AutolevellerAE-0.7.0Free.jar
 
