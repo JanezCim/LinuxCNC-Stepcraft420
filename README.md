@@ -8,7 +8,7 @@ This setup has some custom buttons on the right that I find usefull:
 1. **Rapid to Home**: dont press this. This is still a bug
 2. **z-probe-offset**: pressing this, the machine will start decend on Z axsis untill it hits the probe. It sets that height to offset of 9.95mm (the size of my aluminium block used as probe). This can be changed in `z_tool_offset_measure.ngc`
 3. **z-probe-zero** : same as z-probe-offset, but without offset. Sets the height to 0 (usefull for PCBs)
-4. Green light is red when sensor is not triggered and green when it's triggered (for checking for contact)
+4. Circle light is red when probe sensor is not triggered and green when it's triggered (for checking for contact)
 
 
 
